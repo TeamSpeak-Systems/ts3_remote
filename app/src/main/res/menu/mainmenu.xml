@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/connectMenuItem"
+        android:icon="@drawable/connect"
+        android:theme="@style/AppTheme"
+        android:title="@string/connect">
+        <!---android:background="@color/colorPrimaryDark" -->
+        <!---android:backgroundTint="@color/colorPrimaryDark" -->
+        <!---android:color="@color/colorPrimaryDark" -->
+        <!---android:background="@color/colorPrimaryDark"> -->
+    </item>
+    <item
+        android:id="@+id/subscribeAllMenuItem"
+        android:icon="@drawable/subscribe_all"
+        android:title="@string/subscribe_all"></item>
+    <item
+        android:id="@+id/unsubscribeAllMenuItem"
+        android:icon="@drawable/unsubscribe_all"
+        android:title="@string/unsubscribe_all"></item>
+    <item
+        android:id="@+id/infoMenuItem"
+        android:icon="@drawable/listview"
+        android:title="@string/info"></item>
+    <item
+        android:id="@+id/settingsMenuItem"
+        android:icon="@drawable/settings"
+        android:title="@string/settings"></item>
+    <item
+        android:id="@+id/exitMenuItem"
+        android:icon="@drawable/quit"
+        android:title="@string/exit"></item>
+
+</menu>

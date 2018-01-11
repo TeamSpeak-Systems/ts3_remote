@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TS3 Remote</string>
+    <string name="connect">Verbinden</string>
+    <string name="exit">Beenden</string>
+    <string name="enter_ip">Geben Sie die IP und den API-Schlüssel des Rechners ein, auf dem TeamSpeak läuft:</string>
+    <string name="info">Info</string>
+    <string name="no_connection">Keine Verbindung zum TeamSpeak Client</string>
+    <string name="connection_failed">Verbindung zu %s fehlgeschlagen</string>
+    <string name="no_server">Kein TeamSpeak Server</string>
+    <string name="settings">Einstellungen</string>
+    <string name="show_country_flags">Länder Flaggen zeigen</string>
+    <string name="switch_to_channel">Channel betreten</string>
+    <string name="subscribe_channel">Channel abonnieren</string>
+    <string name="unsubscribe_channel">Abo vom Channel entfernen</string>
+    <string name="subscribe_all">Alle abonnieren</string>
+    <string name="unsubscribe_all">Abos entfernen</string>
+    <string name="ip_editText_hint">IP-Adresse</string>
+    <string name="authkey_editText_hint">API-Schlüssel</string>
+
+</resources>

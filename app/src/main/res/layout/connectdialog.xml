@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+	<TextView
+		android:id="@+id/ipTextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/enter_ip" />
+		<!---android:textColor="#FFFFFF"
+		android:background="@color/colorPrimaryDark"
+		android:backgroundTint="@color/colorPrimaryDark" -->
+
+
+	<EditText android:id="@+id/ipEditText"
+    		  android:layout_height="wrap_content"
+    		  android:layout_width="fill_parent"
+    		  android:singleLine="true"
+    		  android:inputType="text"
+		      android:hint="@string/ip_editText_hint">
+		<requestFocus></requestFocus>
+	</EditText>
+
+	<EditText android:id="@+id/authkeyEditText"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:singleLine="true"
+		android:inputType="text"
+		android:hint="@string/authkey_editText_hint">
+
+	</EditText>
+
+    <LinearLayout android:layout_width="fill_parent"
+    			  android:layout_height="wrap_content">
+        <Button android:layout_height="wrap_content"
+        		android:id="@+id/okButton"
+        		android:layout_width="wrap_content"
+        		android:minWidth="60dip"
+        		android:text="@android:string/ok"/>
+        <Button android:layout_height="wrap_content"
+        		android:id="@+id/cancelButton"
+        		android:layout_width="wrap_content"
+        		android:text="@android:string/cancel"/>
+    </LinearLayout>
+</LinearLayout>

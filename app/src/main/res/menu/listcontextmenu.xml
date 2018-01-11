@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/switchToChannelMenuItem"
+        android:title="@string/switch_to_channel">
+        <!---android:color="@color/colorPrimaryDark" -->
+        <!---android:theme="@style/AppTheme" -->
+    </item>
+    <item
+        android:id="@+id/subscribeChannelMenuItem"
+        android:title="@string/subscribe_channel">
+    </item>
+    <item
+        android:id="@+id/unsubscribeChannelMenuItem"
+        android:title="@string/unsubscribe_channel">
+    </item>
+
+</menu>
